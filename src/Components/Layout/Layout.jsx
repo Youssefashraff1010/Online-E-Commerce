@@ -10,7 +10,7 @@ export default function Layout() {
   <Navbar/>
 <div className="container">
   <Offline><div className="loading">
-    <h2 className='fw-bold'>You're Offline!</h2>
+    <h2 className='fw-bold'>You're Offline</h2>
     </div>
     </Offline>
   <Outlet></Outlet>
